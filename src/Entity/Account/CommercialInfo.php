@@ -15,6 +15,7 @@ class CommercialInfo extends Entity
     protected ?string $cpfCnpj;
     protected ?string $birthDate;
     protected ?string $companyType;
+    protected ?string $companyName;
     protected ?int $incomeValue;
     protected ?string $email;
     protected ?string $phone;
@@ -70,6 +71,17 @@ class CommercialInfo extends Entity
     public function setCompanyType(?string $companyType): self
     {
         $this->companyType = $companyType;
+        return $this;
+    }
+
+    public function getCompanyName(): ?string
+    {
+        return $this->companyName;
+    }
+
+    public function setCompanyName(?string $companyName): self
+    {
+        $this->companyName = $companyName;
         return $this;
     }
 
