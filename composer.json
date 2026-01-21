@@ -16,7 +16,7 @@
         "ext-openssl": "*",
         "jetimob/http-php-laravel": "^2",
         "illuminate/support": "^9.0 || ^10.0 || ^11.0",
-        "illuminate/console": "^9.0 || ^10.0" || ^11.0",
+        "illuminate/console": "^9.0 || ^10.0 || ^11.0",
         "illuminate/container": "^9.0 || ^10.0 || ^11.0"
     },
     "require-dev": {
