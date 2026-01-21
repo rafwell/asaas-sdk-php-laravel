@@ -19,7 +19,7 @@ use Jetimob\Asaas\Entity\Account\InvoiceCustomization;
 use Jetimob\Asaas\Entity\Account\PixAddressKeyType;
 use Jetimob\Asaas\Mocks\CreateAccountResponseMock;
 
-class AccountApiFake extends AbstractFakeApi implements AccountApiInterface
+abstract class AccountApiFake extends AbstractFakeApi implements AccountApiInterface
 {
     public function create(Account $account): CreateAccountResponse
     {
